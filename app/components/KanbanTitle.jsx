@@ -44,7 +44,7 @@ function KanbanTitle() {
             {/* Other Details */}
           <div className="flex flex-col lg:flex-row justify-between items-start w-full gap-5 mt-4">
               {/* fuctional buttons */}
-          <div className="flex flex-row lg:flex-row justify-between gap-5">
+          <div className="flex flex-row flex-wrap lg:flex-row lg:justify-between gap-5">
             {/* avtar group */}
             <div className="flex flex-row overflow-hidden">
               <div className="relative w-8 h-8 rounded-full bg-white border-2 border-[#15132B]  "></div>
@@ -63,24 +63,24 @@ function KanbanTitle() {
             </div>
 
             {/* Private button */}
-            <div className="flex flex-row items-center justify-center rounded-xl px-3 gap-2 bg-transparent border border-[#7879F1]">
+            <div className="flex flex-row items-center justify-center rounded-xl px-3 gap-2 w-12 h-12 lg:w-auto lg:h-auto bg-transparent border border-[#7879F1]">
               <p className="text-sm">Private</p>
             </div>
 
             {/* Edit button */}
-            <div className="flex flex-row items-center justify-center rounded-xl px-3 gap-2 bg-[#7879F1]">
+            <div className="flex flex-row items-center justify-center rounded-xl px-3 gap-2 w-12 h-12 lg:w-auto lg:h-auto  bg-[#7879F1]">
               <p className="text-sm">Edit</p>
             </div>
 
             {/* Comment */}
-            <div className="flex flex-row items-center justify-center rounded-xl px-2 gap-2 bg-transparent border border-[#7879F1]">
+            <div className="flex flex-row items-center justify-center rounded-xl px-2 gap-2 w-auto h-12 lg:w-auto lg:h-auto bg-transparent border border-[#7879F1]">
               <img className="w-6 h-6" src="comment.svg" alt="" />
               <p className="text-sm">45 Comments</p>
             </div>
           </div>
 
           {/* Progress bar */}
-          <div className="flex flex-row ">
+          <div className="flex flex-col lg:flex-row ">
             <p className="text-sm flex flex-nowrap w-40">Total Progress 60%</p>
             <div className="w-56 h-4 rounded-xl bg-[#1E1C3A]">
               {/* Progress Div */}

@@ -86,7 +86,7 @@ const NavBar = () => {
         {/* Condtional sidebar */}
         {isSidebarOpen && (
           <div className="flex flex-col w-full fixed backdrop-blur top-0 left-0 z-50" aria-modal='true' role="dialouge">
-            <div className="flex flex-col bg-[#15132b] w-2/6 z-20 gap-4 h-screen" >
+            <div className="flex flex-col bg-[#15132b] w-4/5 lg:w-2/6  z-20 gap-4 h-screen" >
             <div className="flex flex-row items-center justify-between px-4 py-4 ">
               <p className="text-xl px-4 py-2">weframetech</p>
               <img

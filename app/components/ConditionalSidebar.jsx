@@ -9,6 +9,7 @@ function ConditionalSidebar() {
     <input 
       type="text" 
       placeholder="Search Here" 
+      autoFocus
       className="pl-4 rounded-3xl text-sm bg-transparent text-black"
     />
   </div>
